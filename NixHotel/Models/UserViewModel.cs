@@ -7,5 +7,8 @@ namespace NixHotel.Models
 {
     public class UserViewModel
     {
+        public Guid Id { set; get; }
+        public string Login { set; get; }
+        public string Password { set; get; }
     }
 }
